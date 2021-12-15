@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(90, 90, 90);
+    text-align: center;
+}
+
+.Game {
+    display: inline-block;
+     text-align: center;
+     background-color: rgb(90, 90, 90);
+     margin: 10px;
+}
+
+.player {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.col {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(63, 62, 62);
+    margin: 5px;
+    display: inline-block;
+    border: solid 1px black;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.col.red {
+    background-color: red;
+}
+
+.col.yellow {
+    background-color: yellow;
+}
+
+.col.pred {
+    background-color: rgb(148, 3, 3);
+}
+
+
+.col.pyellow {
+    background-color: rgb(161, 161, 0);
+}
+
+.Title {
+     text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.Instruction {
+   text-align: center;
+    font-size: 100%; 
+    color: whitesmoke;
+    margin: 10px;
+    
+}
+.conteneur {
+    width:460px;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.conteneur button{
+    width:460px;
+    padding:10px;
+    border:0;
+    border-radius:6px;
+    background-color:darkgrey;
+    color:#FFFFFF;
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+.conteneur button:hover{
+    background-color:rgb(122, 121, 121);
+}
+
+.Win {
+     text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color : #ff6702;
+}

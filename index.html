@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Puissance 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="firework.css">
+</head>
+
+<body>
+    <div class="Title">
+        <h1>Puissance 4</h1>
+    </div>
+    <div class="Instruction">
+        <p>
+            How to play : You have to align 4 coins to win
+        </p>
+    </div>
+    <div class="endgame"></div>
+    <div class="Score"></div>
+    <div class="conteneur">
+        <button id="#restart" onclick="location.reload(); ">New Game</button>
+    </div>
+    <div class="player"></div>
+    <div class="Win"></div>
+    <div class="Game" id="Game">
+        <!-- le 2048 sera inséré ici -->
+    </div>
+    <div id="canvas-container-div">
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="win.js"></script>
+    <script type="text/javascript" src="firework.js"></script>
+    <script type="text/javascript" src="p4.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

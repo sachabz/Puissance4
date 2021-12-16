@@ -1,6 +1,6 @@
 const p4 = {
     initp4: function () {
-        this.COL = 7;
+        this.COL = 8;
         this.ROW = 6;
         this.selector = "#Game";
         this.player = 'red';
@@ -63,7 +63,8 @@ const p4 = {
             if (winner) {
                 console.log(`la cousleur ${winner} a gagné`);
                 $('#restart').css('visibility', 'visible');
-                $(".Win").html(`${winner} : You Win !`).css('color', `${winner}`).addClass('box green');
+                $(".Win").html(`${winner} : You Win !`).css('color', `${winner}`);
+                rotate.play();
                 $('#Game').unbind('click');
                 $('.player').remove();
                 score++;

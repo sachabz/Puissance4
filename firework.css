@@ -1,10 +1,10 @@
 * { margin: 0; padding: 0; }
 
-
-
-canvas {
-  display: block;
-  cursor: crosshair;
-  display: absolute;
+#canvas-container-div {
   z-index: 1;
+   display: block;
+  cursor: crosshair;
+  position: fixed;
+  inset: 50px;
+  pointer-events: none;
 }

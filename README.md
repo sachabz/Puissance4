@@ -4,7 +4,7 @@
 2048 is a web project created in two days for a school project
 
 ## Created with
-- js, jquiery
+- js, jquery
 
 ## Langages
 - CSS3, HTML5, 
